@@ -1,0 +1,41 @@
+.color {
+    display: inline-block;
+    margin: 0 15px 0 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #808080;
+    border: black 1px solid;
+}
+
+/* Botão verde e Text Area */
+
+.btn:hover {
+    background-color: #048155;
+}
+.btn {
+    background-color: #04A66D;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: #00000040 0 2px 2px 0px;
+    font-family: 'Biryani', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+}
+
+.textArea {
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    width: 30px;
+    border: rgb(196, 196, 196) solid 1px;
+    background-color: rgb(235, 235, 235);
+}
+#pixel-board tr td {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
