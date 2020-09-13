@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Paleta de Cores</title>
+  <link rel=stylesheet type="text/css" href="style.css">
+ </head>
+ <body id="body">
+<!-- cores disponíveis -->
+     <h1 id="title">Paleta de Cores</h1>
+     <ul id="cores">
+         
+     <li class="cores">Black</li>
+     <li class="cores">Cor 2</li>
+     <li class="cores">Cor 3</li>
+     <li class="cores">Cor 4</li>
+    </ul>
+    
+
+    <br>
+
+<!-- paleta -->
+<div id="color-palette">
+    <div class="color selected" id="black" > </div>
+    <div class="color" id="blue"> </div>
+    <div class="color" id="red"> </div>
+    <div class="color" id="purple"> </div>
+</div>
+<br>
+<button id="clear-board"> Limpar</button>
+<input id="board-size" min="1" max="50" type="number" class="board-size" placeholder="Tamanho">
+<button id="generate-board">VQV</button>
+<br><br>
+
+<!-- quadro de pixels -->
+<table id=pixel-board>
+    <tr class=linha>
+        <td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td>
+    </tr>
+    <tr class=linha>
+        <td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td>
+    </tr>
+    <tr class=linha>
+        <td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td>
+    </tr>
+    <tr class=linha>
+        <td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td>
+    </tr>
+    <tr class=linha>
+        <td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td><td class="pixel"></td>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+ </body>
+</html>
+
