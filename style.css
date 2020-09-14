@@ -1,0 +1,38 @@
+.color {
+  border: solid 1px black;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+/* .black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+} */
+
+.line {
+  display: table-row;
+}
+
+.pixel {
+  background-color: white;
+  border: solid 1px black;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+section {
+  display: table;
+}
