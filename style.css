@@ -1,0 +1,40 @@
+
+.color{
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#first{
+  background-color: rgb(0, 0, 0);
+}
+
+#second{
+  background-color: rgb(205, 193, 255);
+}
+
+#third{
+  background-color: rgb(234, 180, 100);
+}
+
+#forth{
+  background-color: rgb(115, 165, 128);
+}
+
+#pixel-board{
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+
+  height: 5em;
+  width: 5em;
+}
+
+.pixel{
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
