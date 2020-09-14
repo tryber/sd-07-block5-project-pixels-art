@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Paleta de Cores</h1>
+        <div id="color-palette" class=>
+            <div class="color selected"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+
+        <div>
+            <input id="board-size" type="number" min="1" max="50" required placeholder="Board size">
+            <button id="generate-board">VQV</button>
+        </div>
+
+        <div>
+            <button id="clear-board">Limpar</button>
+        </div>
+
+        <div>
+            <button id="random-palette">Random Palette</button>
+        </div>
+
+
+        <div id="pixel-board" class="pixelBoardClass">
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+        </div>
+
+        <div>
+                <input id="columns" type="number" min="5" max="50" required placeholder="Width">
+                <input id="lines" type="number" min="5" max="50" required placeholder="Height">
+                <button id="resize-reset">Resize/Reset</button>
+        </div>
+
+        <div>
+            <input id="pixel-height" type="number" min="1" required placeholder="Pixel height">
+            <input id="pixel-width" type="number" min="1" required placeholder="Pixel width">
+            <button id="pixel-size">Pixel Resizer</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
