@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+.section-palette {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.section-palette .color {
+  border: black solid 1px;
+  display: inline-block;
+  margin-left: 30px;
+  height: 80px;
+  width: 80px;
+}
+
+.section-palette .black {
+  background-color: black;
+}
+
+.section-palette .red {
+  background-color: red;
+}
+
+.section-palette .blue {
+  background-color: blue;
+}
+
+.section-palette .green {
+  background-color: green;
+}
+
+.section-board {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.section-board .lines {
+  display: table;
+  margin: auto;
+}
+
+.pixel {
+  background-color: white;
+  border: black solid 1px;
+  display: table-cell;
+  border-collapse: collapse;
+  height: 40px;
+  width: 40px;
+}
+
+.section-button {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.section-button button {
+  height: 30px;
+  font-weight: 600;
+  margin-right: 40px;
+}
+
+.section-button .input {
+  margin-left: 40px;
+}
