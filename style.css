@@ -1,0 +1,22 @@
+.color{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-color: rgb(0,0,0);
+    border-width: 1px;
+    border-style: solid;
+}
+
+#clear-board{
+    margin: 10px;
+}
+
+.pixel{
+    background-color: rgb(255,255,255);
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(0,0,0);
+    display: inline-block;
+}
