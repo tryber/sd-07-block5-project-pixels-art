@@ -1,0 +1,51 @@
+#title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#color-palette {
+    width: 60%;
+}
+
+#pixel-board {
+    display: table;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.preta {
+    background-color: black;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.tr {
+    display: table-row;
+}
+
+.pixel {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: white;
+}
+
