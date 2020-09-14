@@ -5,7 +5,7 @@
   width: 40px;
 }
 
-.pixel {
+.pixel, td, th, tr {
   background-color: white;
   border: 1px solid black;
   height: 40px;
