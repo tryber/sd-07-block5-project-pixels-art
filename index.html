@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all-content">
+      <h1 id="title">Paleta de Cores</h1>
+
+      <div id="color-palette">
+        <div class="color selected"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+
+      <div class="defTamanho">
+        <input id="board-size" type="number" min="1" />
+        <button id="generate-board" class="vqvb">VQV</button>
+      </div>
+
+      <button id="clear-board" class="clear">Limpar</button>
+
+      <div id="pixel-board"></div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
