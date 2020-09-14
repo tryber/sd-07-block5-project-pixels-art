@@ -1,0 +1,86 @@
+  .barra {
+    align-items: center;
+    border: 3px solid black;
+    padding: 40px;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large;
+    border-radius: 5%;
+    background-color: #00000060;
+}
+body{
+  background-color:rgb(229, 255, 214);;/*carrega primeiro   */
+}
+
+
+
+.botaoLimpar{
+
+    background-color: #04A66D;
+    border: 2px;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: #00000040 0 2px 2px 0px;
+    font-family: Courier, "Lucida Console", monospace;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+   
+    
+  
+}
+.color{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#colorBlack{
+  background-color: black; 
+}
+#colorRed{
+  background-color: red; 
+}
+#colorGreen{
+  background-color: green;  
+}
+#colorBlue{
+  background-color: blue;  
+}
+#color-palette{
+padding: 20px;
+}
+.footer_caixa{
+  margin-top: 30px;
+  background-color: #00000060;
+  padding: 20px;
+}
+.footer_p{
+ 
+  color:white;
+  font-style: normal;
+  font-family: Courier, "Lucida Console", monospace; 
+  text-align: center;
+}
+.pixel{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#pixel-board{
+  padding: 20px;
+  top: 50%;
+  left: 40%;
+  position: relative;
+  margin-top: 20px;
+}
