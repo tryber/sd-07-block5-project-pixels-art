@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.:Pixel Art:.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="logo">
+   <img src="/imgs/piexelArt.png" alt="logo" class="logo">
+  </div>
+</header>
+<section>
+  <div class="containerInt">
+   <h1 id="title">Paleta de Cores</h1>
+   <div id="color-palette">
+   </div>
+   <h1>Tamanho</h1>
+   <div class="size">
+    Tamanho: <input type="number" name="linha" id="board-size" placeholder="5" min="1" max="50"> x
+    <buton class="create" id="generate-board">
+      VQV
+    </button>
+   </div>
+   <button id="clear-board">Limpar</button>
+  </div>
+  <div class="drawPixel" id="drawPixel">
+    <div id="pixel-board"></div>
+  </div>
+</section>
+</div>
+<footer>
+  <p>Created with &#10084 by FIlipi Firmino</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
