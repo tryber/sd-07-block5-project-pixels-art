@@ -1,0 +1,43 @@
+#color-palette {
+    border: solid 1px black;
+    width: 250px;
+    height: 60px;
+}
+
+.color {
+    display: inline-block;
+    border: solid 1px black;
+    width: 50px;
+    height: 50px;
+}
+
+#blackInk {
+    background-color: black;
+}
+#blueInk {
+    background-color: blue;
+}
+#yellowInk {
+    background-color: yellow;
+}
+#redInk {
+    background-color: red;
+}
+
+#pixel-board {
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+.pixel {
+    border: solid 1px black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+.pixelLine .pixel {
+    display: inline-block;
+}
