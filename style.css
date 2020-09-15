@@ -1,0 +1,23 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.pixel-board {
+  display: table;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
