@@ -16,14 +16,14 @@
   width: 36px;
 }
 
-table.pixelBoard {
+.pixelBoard {
   background-color: white;
   border-collapse: collapse;
   display: inline-block;
-  }
+}
 
 .color-palette {
   border: 1px solid black;
   height: 100px;
   width: 100%;
-  }
+}

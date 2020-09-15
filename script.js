@@ -7,4 +7,4 @@ window.onload = function () {
   redColor.style.backgroundColor = 'red';
   blueColor.style.backgroundColor = 'blue';
   greenColor.style.backgroundColor = 'green';
-    };
+};
