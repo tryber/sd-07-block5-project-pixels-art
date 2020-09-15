@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleta de Cores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id='title'>Paleta de Cores</h1>
+  <div id='color-palette' class='color-palette'>
+    <div id='black' class='border color selected'></div>
+    <div id='red' class='border color'></div>
+    <div id='green' class='border color'></div>
+    <div id='blue' class='border color'></div>
+  </div>
+  <br>
+
+    <label for='board-size'>
+      <input type='number' id='board-size' name='board-size' min='1' max='50'>
+      <button id='generate-board'>VQV</button>
+    </label>
+  <br>
+
+  <br>
+  <button id='clear-board'>Limpar</button>
+  <br>
+  <br>
+
+  <div id='pixel-board' class='pixel-board'></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
