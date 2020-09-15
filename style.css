@@ -1,0 +1,45 @@
+.color {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: solid black 1px;
+    margin: 2px;
+}
+
+.selected {
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    display: inline-block;
+}
+
+#black {
+    background-color: black;
+}
+#red {
+    background-color: rgb(255, 0, 0);
+} 
+
+#green {
+    background-color: rgb(0, 128, 0);
+}
+
+#blue {
+    background-color: rgb(0, 0, 255);
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: white;
+    display: table-cell;
+}
+
+#pixel-board{
+    display: table;
+}
+
+.line {
+    display: table-row;
+}
