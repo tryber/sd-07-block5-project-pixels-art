@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.main-title {
+  font-family: Kufam , cursive;
+  margin: 40px 30px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  margin: 10px;
+  width: 50px;
+}
+
+.black {
+  background-color: black;
+}
+
+.salmon {
+  background-color: lightsalmon;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.pixel-board {
+  margin-top: 30px;
+}
+
+.pixel-line {
+  max-height: 40px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+footer {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
