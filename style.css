@@ -1,0 +1,30 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 38px;
+  margin: 5px 2px;
+  width: 38px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+}
+
+.pixels-row {
+  height: 42px;
+}
+
+button {
+  margin: 10px;
+}
+
+input {
+  text-align: center;
+  width: 50px;
+}
