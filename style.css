@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 3px 3px 5px black;
+}
+
+.color {
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 25px;
+  width: 60px;
+}
+
+.black {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.size-handler {
+  margin-top: 20px;
+}
+
+.size-handler input {
+  background-color: aquamarine;
+  border: 3px dashed black;
+  font-family: Patua One, cursive;
+  font-size: large;
+  height: 30px;
+  padding: 4px 8px;
+  width: 250px;
+}
+
+::placeholder {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.action-button {
+  border: 3px dashed black;
+  font-family: Patua One, cursive;
+  font-size: large;
+  margin-left: 10px;
+  padding: 4px 8px;
+}
+
+.clear-board {
+  margin: 15px 0;
+}
+
+.pixel-board {
+  margin: 30px auto;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-top: -4px;
+  width: 40px;
+}

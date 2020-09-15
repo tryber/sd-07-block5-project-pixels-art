@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Paleta de Cores</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <section id="color-palette">
+    <button class="color black selected"></button>
+    <button class="color first"></button>
+    <button class="color second"></button>
+    <button class="color third"></button>
+  </section>
+
+  <section id="size-handler" class="size-handler">
+    <input type="number" id="board-size" min="1">
+    <button id="generate-board" class="action-button">VQV</button>
+  </section>
+
+  <button id="clear-board" class="clear-board action-button">
+    Limpar
+  </button>
+
+  <div id="pixel-board" class="pixel-board"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
