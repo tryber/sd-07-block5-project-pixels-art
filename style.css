@@ -16,9 +16,8 @@
   width: 36px;
 }
 
-.pixelBoard {
+table.pixelBoard {
   background-color: white;
-  border: 1px solid black;
   border-collapse: collapse;
   display: inline-block;
   }
