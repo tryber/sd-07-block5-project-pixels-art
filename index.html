@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+    <div id="container-palette" >
+       <div id="color-palette" class="color-palette" >
+           <div id="color1" class="color palette0 selected"></div>
+           <div id="color2" class="color palette1"></div>
+           <div id="color3" class="color palette2"></div>
+           <div id="color4" class="color palette3"></div>
+       </div>
+    </div>
+    <div>
+    <input id = 'board-size' type="number" class="box-number" min="1" placeholder="Digite um número aqui">
+    <button id="generate-board">VQV</button>
+    </div>
+    <button id="clear-board" class="clear-board">Limpar</button>
+
+<div id="container-pixels">
+    <div id="pixel-board">
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.color-palette {
+  align-content: center;
+  display: inline-block;
+  height: 45px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 210px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.palette0 {
+  background-color: black;
+}
+
+.palette1 {
+  background-color: red;
+}
+
+.palette2 {
+  background-color: blue;
+}
+
+.palette3 {
+  background-color: green;
+}
+
+.clear-board {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: 0.5px;
+  width: 40px;
+}
