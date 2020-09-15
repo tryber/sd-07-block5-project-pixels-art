@@ -1,0 +1,33 @@
+.color{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: solid 1px black;
+}
+
+
+.white{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: solid 1px black;
+}
+.black, 
+.red, 
+.blue, 
+.green,
+button {
+    cursor:pointer;
+}
+
+.pixel{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: solid 1px black;
+    background-color: white;
+}
+.pixels-row{
+    height: 42px;
+}
