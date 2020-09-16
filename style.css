@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+  }
+  header {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+  }
+  h1 {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  .tools {
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .color {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  .color1 {
+    background-color: black;
+  }
+  .color2 {
+    background-color: blue;
+  }
+  .color3 {
+    background-color: green;
+  }
+  .color4 {
+    background-color: crimson;
+  }
+  #pixel-board {
+    background-color: blueviolet;
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+  }
+  .linha{
+      
+  }
+  .linha :first-child{
+      
+  }
+  .pixel {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    /* Pesquisar sobre display: grid */
+    /* https://www.origamid.com/projetos/css-grid-layout-guia-completo/  */
+    margin: -4px;
+  }
