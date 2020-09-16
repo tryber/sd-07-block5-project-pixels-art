@@ -1,0 +1,25 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: 0;
+  width: 40px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: -3px -1px;
+  max-width: 50px;
+  width: 40px;
+}
+
+.clear-board {
+  margin-bottom: 14px;
+}
+
+.resize-board {
+  margin: 10px -2px;
+}
