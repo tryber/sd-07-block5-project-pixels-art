@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels Art</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+  <div id="color-palette">
+    <div class="color black selected" onclick="selectBlack()"></div>
+    <div class="color red" onclick="selectRed()"></div>
+    <div class="color green" onclick="selectGreen()"></div>
+    <div class="color purple" onclick="selectPurple()"></div>
+  </div>
+  <div><button id="clear-board">Limpar</button></div>
+  <div id="pixel-board" class="pixel-board"></div>
+  <script src="script.js"></script>
+</body>
+</html>
