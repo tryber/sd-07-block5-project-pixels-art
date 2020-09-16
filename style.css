@@ -1,0 +1,56 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.first-color {
+    background-color: black;
+}
+
+.second-color {
+    background-color: green;
+}
+
+.third-color {
+    background-color: red;
+}
+
+.fourth-color {
+    background-color: blue;
+}
+
+.pixel {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 10px 10px 10px 1px;
+}
+
+#app-window {
+    background-color: antiquewhite;
+    padding: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+#board-size {
+    max-width: 35px;
+}
