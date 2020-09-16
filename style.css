@@ -1,0 +1,55 @@
+h1 {
+	background-color: rgba(0, 0, 0, 0.822);
+	color: white;
+	font-family: "Ubuntu", "sans-serif";
+	padding-top: 10px;
+	text-align: center;
+}
+
+#color-palette {
+	text-align: center;
+}
+
+.color {
+	border: 1px solid black;
+	border-radius: 100%;
+	display: inline-block;
+	height: 60px;
+	margin: 10px;
+	width: 60px;
+}
+
+.black {
+	background-color: black;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.gray {
+	background-color: gray;
+}
+
+button {
+	margin-bottom: 10px;
+}
+
+#pixel-board {
+	display: inline-block;
+	height: 210px;
+	width: 210px;
+}
+
+.pixel {
+	background-color: white;
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+
