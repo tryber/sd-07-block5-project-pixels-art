@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pixel art</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Paleta de Cores</h1>
+
+    <div id="color-palette">
+      <input type="button" class="color color1 selected" />
+      <input type="button" class="color color2" />
+      <input type="button" class="color color3" />
+      <input type="button" class="color color4" />
+    </div>
+
+    <br /><br />
+    <button id="clear-board"><strong>Limpar</strong></button>
+    <br /><br />
+
+    <label
+      >Set pixel board size (5 to 50):
+      <input type="number" id="board-size" min="5" max="50" />
+    </label>
+    <button id="generate-board">VQV</button>
+    <br /><br />
+
+    <div id="pixel-board" class="pixel-board"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
