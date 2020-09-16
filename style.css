@@ -1,0 +1,68 @@
+body{
+  background-color: darkkhaki;
+}
+#tudo{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#board-input {
+  text-align: center;
+}
+.color {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+.white {
+  background-color: white;
+}
+.orange{
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.violet {
+  background-color: violet;
+}
+
+#pixel-board {
+  width: 210px;
+  /* height: 210px; */
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0;
+}
