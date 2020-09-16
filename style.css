@@ -1,0 +1,39 @@
+.color {
+  display: inline-block;
+  border: black solid 1px;
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+
+#preto {
+  background-color: black;
+}
+
+#color2 {
+  background-color: red;
+}
+
+#color3 {
+  background-color: blue;
+}
+
+#color4 {
+  background-color: green;
+}
+
+.pixel {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: black solid 1px;
+}
+
+.linhas {
+  display: block;
+}
+
+#pixel-board {
+  position: relative;
+}
