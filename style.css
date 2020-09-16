@@ -1,0 +1,50 @@
+.clear-board {
+  margin: 25px 0 15px 5px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.pixel-board {
+  display: table;
+  padding: 5px;
+}
+
+.pixel-row {
+  display: table-row;
+  padding: 5px;
+}
+
+.pixel {
+  display: table-cell;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.clear-button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
