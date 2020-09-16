@@ -1,0 +1,60 @@
+.color {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.exibition {
+    display: line;
+    margin: 0px 0px 10px 14%;
+}
+.exibition-text {
+    margin: 0px 0px 10px 10%;
+}
+#clear-board {
+    margin:  0px 0px 10px 10%;
+}
+.exibition-color {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+#pixel-board {
+    display: table;
+    background-color: blue;
+}
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: table-cell;
+    background-color: white;
+    box-sizing: content-box;
+}
+.colun {
+    display: table-row;
+}
+#color-palette{
+    display: inline-block;
+}
+#chosecolor {
+display: inline-block;
+}
+#c-red {
+    background-color: red;
+}
+#c-blue {
+    background-color: blue;    
+}
+#c-green {
+    background-color: green;    
+}
+#c-black {
+    background-color: black;    
+}
+#multi-color{
+    background-color: violet;
+}
+.exibition-color {
+    background-color: black;
+}
