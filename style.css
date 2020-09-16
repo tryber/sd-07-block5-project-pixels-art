@@ -1,0 +1,87 @@
+.body {
+  background-attachment: fixed;
+  background-image: url('https://cdn1.vectorstock.com/i/1000x1000/30/55/colorful-pencil-background-color-pencil-on-a-white-vector-7883055.jpg');
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 10px;
+  color: rgb(43, 40, 44);
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  margin: auto;
+  min-height: 550px;
+  padding: 30px;
+  width: 80%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 5px 0 30px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.418);
+}
+
+.pixel-board {
+  margin: 15px;
+}
+
+.color {
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
+  height: 60px;
+  margin: 10px;
+  width: 60px;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: rgb(244, 92, 51);
+}
+
+.orchid {
+  background-color: rgb(102, 66, 144);
+}
+
+.blue {
+  background-color: rgb(1, 173, 239);
+}
+
+.pixel {
+  background-color: white;
+  border: solid 1px black;
+  display: table-cell;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}
+
+.line {
+  height: 42px;
+}
+
+.color-palette {
+  margin: 15px;
+  text-align: center;
+}
+
+.commands {
+  background-color: grey;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.button {
+  font-weight: 600;
+  padding: 5px 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class='body'>
+    <main class='main'>
+    <h1 id='title' class='title'>Paleta de Cores</h1>
+<div id='color-palette' class='color-palette'>
+    <button id='black' class='color black selected'></button>
+    <button id='orange' class='color orange'></button>
+    <button id='orchid' class='color orchid'></button>
+    <button id='blue' class='color blue'></button>
+</div>
+<section class='commands'>
+    <label class='labels'><strong>Número de Pixels =></strong>
+        <input type='number' id='board-size' min="1" class='number-input-box'>
+        <button id='generate-board' class='button'>VQV</button>
+    </label>
+    <label class='labels'><strong>Recomeçar =></strong>
+        <button id='clear-board' class='button'>Limpar</button>
+    </label>
+</section>
+<div id='pixel-board' class='pixel-board'>
+</div>
+</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
