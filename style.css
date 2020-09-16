@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.head-class {
+  box-shadow: 1px 1px 3px black;
+  margin-top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  background-color: rgb(109, 89, 89);
+  color: whitesmoke;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.main-class {
+  margin: 0;
+  min-height: 300px;
+}
+
+.color-palette {
+  margin: 0;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 40px;
+}
+
+.section-button-clear {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.clear-board {
+  background-color: tan;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px 70px;
+}
+
+.section-input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.generate-board {
+  background-color: darkgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.board-size {
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 10px 42px;
+  width: 40px;
+}
+
+.pixel-board {
+  display: inline-block;
+  text-align: center;
+}
+
+.line {
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.pixel {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: -1px;
+  width: 40px;
+}
+
+.footer-class {
+  background-color: rgb(109, 89, 89);
+  box-shadow: 1px 1px 3px black;
+  color: whitesmoke;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+  text-align: center;
+  width: auto;
+}
