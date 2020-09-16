@@ -1,0 +1,63 @@
+.pixel {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    border: solid 1px black;
+    float: left;
+    
+  }
+
+  .pixel-board{
+    border: 3px solid darkgreen;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blocos {
+    display: inline-block;
+  }
+
+  
+
+  .color-palette{
+    width: 80% ; 
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    
+   }
+
+  .color{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 5px;
+    
+  }
+
+  .color1 {
+    background-color: black;
+  }
+  
+  .color2 {
+    background-color: blue;
+  }
+  .color3 {
+    background-color: green;
+  }
+  
+  .color4 {
+    background-color: crimson;
+  }
+  
