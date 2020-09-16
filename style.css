@@ -1,0 +1,53 @@
+h1{
+  text-align: center;
+}
+
+.button-container {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.button-container button{
+  margin-top: 10px;
+  width: 150px;
+  background-color: white;
+  outline: 0;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+.clear-board button:hover {
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
+
+.color {
+  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+  display: inline-block;
+}
+
+.grid-colors {
+  text-align: center;
+}
+
+.grid-pixels {
+  margin: 10px auto;
+  width: 210px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0;
+}
+
+.pixel {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
