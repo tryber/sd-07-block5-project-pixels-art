@@ -1,0 +1,65 @@
+#color1 {
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#color2 {
+  background-color: darkgreen;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#color3 {
+  background-color: orangered;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#color4 {
+  background-color: blue;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.pixel-board {
+  display: table;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.tableRow {
+  display: table-row;
+}
+.pixel {
+  display: table-cell;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 40px;
+  width: 40px;
+}
+
+#clear-board {
+  margin-top: 15px;
+  height: 30px;
+  width: 90px;
+}
