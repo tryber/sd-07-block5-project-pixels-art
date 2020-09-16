@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: greenyellow;
+  height: 150px;
+  width: 100%;
+}
+
+h1 {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.tools {
+  background-color: rgb(216, 203, 21);
+  text-align: center;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+}
+
+.palette-one {
+  background-color: black;
+}
+
+.palette-two {
+  background-color: red;
+}
+
+.palette-three {
+  background-color: blue;
+}
+
+.palette-four {
+  background-color: green;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  display: inline-block;
+  height: 700px;
+  margin-top: 60px;
+  width: 700px;
+  background-color: red;
+}
+
+.line {
+  margin-top: -4px;
+}
+
+.clear-board {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
