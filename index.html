@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <section>
+      <nav>
+        <div id="color-palette" class="container"></div>
+        <div class="container">
+          <div class="dialog line">
+            Brush stroke color is: <strong>Black</strong>
+          </div>
+        </div>
+        <div class="container">
+          <input
+            id="board-size"
+            class="button"
+            placeholder="Valor entre 5 e 50"
+            type="number"
+            min="1"
+            max="50"
+          /><button id="generate-board" class="button">VQV</button>
+        </div>
+        <div class="container">
+          <button id="clear-board" class="button">Limpar</button>
+        </div>
+      </nav>
+      <article>
+        <div id="pixel-board" class="square container"></div>
+      </article>
+    </section>
+  </body>
+</html>

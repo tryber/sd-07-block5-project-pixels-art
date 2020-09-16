@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+
+.button {
+  box-sizing: border-box;
+  height: 40px;
+  width: 160px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.container {
+  border: 3px solid slategray;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.dialog {
+  box-sizing: border-box;
+  padding: 11px;
+  vertical-align: middle;
+}
+
+.line {
+  height: 40px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.square {
+  display: inline-block;
+}
