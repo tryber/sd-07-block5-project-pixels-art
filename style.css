@@ -1,0 +1,27 @@
+.color {
+  border: solid black 1px;
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  width: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.pixel {
+  border: solid black 1px;
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  width: 40px;
+}
+
+button {
+  margin: 15px 20px;
+}
