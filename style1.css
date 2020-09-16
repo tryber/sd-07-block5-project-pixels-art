@@ -1,0 +1,32 @@
+.pixel-board {
+  display: table;
+}
+
+..color-palette , .pixel-row {
+  display: table-row;
+}
+
+.color-palette > div , .pixel {
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+.border {
+  border: 1px solid black;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  height: 40px;
+  margin-left: 20px;
+  width: 40px;
+}
+
