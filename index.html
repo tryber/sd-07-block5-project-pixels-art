@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Art Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+    <p>Escolha sua cor para pintar!</p>
+    <section id="color-palette" class='paleta-de-cores'>
+        <div class="color color-1 selected"></div>
+        <div class="color color-2"></div>
+        <div class="color color-3"></div>
+        <div class="color color-4"></div>
+    </section>
+
+    <section class='botoes'>
+    <input  id="board-size" type="number" min="1" placeholder="Tamanho da tela">
+    <button id="generate-board" class='botao-VQV' >VQV</button><br>
+    <button id="clear-board" class='botao-limpar'>Limpar</button>
+    <div id="pixel-board" class="pixel-board">
+    </section>
+
+    <footer class='rodape'>Desenvolvido por: Vanderson Henrique - Turma: 07</footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.pixel-board {
+  display: table;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.linha {
+  display: table-row;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+
+}
+
+.color-1 {
+  background-color: black;
+}
+
+.color-2 {
+  background-color: rgb(133, 123, 233);
+}
+
+.color-3 {
+  background-color: blue;
+}
+
+.color-4 {
+  background-color: green;
+}
+
+body {
+  background-image: linear-gradient(to top, red, blue, green, yellow);
+  display: block;
+  text-align: center;
+}
+
+.paleta-de-cores {
+  margin: 15px;
+}
+
+.botoes {
+  margin: 15px;
+}
+
+.rodape {
+  font-weight: 700;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Lobster, cursive;
+  font-size: 50px;
+}
+
+button {
+  background-image: linear-gradient(to left, rgb(232, 125, 127), rgb(116, 237, 83), rgb(243, 241, 151), rgb(136, 189, 227));
+  font-family: fantasy;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.botao-limpar {
+  margin-top: 15px;
+}
+
+p {
+  font-style: italic;
+}
