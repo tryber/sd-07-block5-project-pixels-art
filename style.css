@@ -1,0 +1,51 @@
+.clearBoard {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.color1 {
+  background-color: black;
+}
+
+.colorPalette {
+  width: 425px;
+}
+
+.generatorBoard {
+  cursor: pointer;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.pixelBoard {
+  display: table;
+  margin-top: 20px;
+}
+
+.selected {
+  border: 1px solid black;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+}
