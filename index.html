@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macro Pixel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <section class="menu restore-board" id="restore-board">
+      <span class="input-document-title">Restaurar sessão anterior?</span>
+      <br>
+      <div>
+        <button class="buttons" id="yes-restore">Sim</button>
+        <button class="buttons" id="no-restore">Não</button>
+      </div>
+    </section>
+
+    <section class="menu new-document-center" id="new-document">
+      <input class="input-document-title" id="input-document-title" value="Novo Documento">
+      <div>
+        Valor do lado: 
+        <input class="board-size" id="board-size" type="number">
+        <button class="generate-board" id="generate-board">VQV</button>
+      </div>
+    </section>
+  </header>
+
+  <section class="color-palette" id="color-palette">
+    <h1 id="title">Paleta de Cores</h1>
+    <div class="color color0 selected"></div>
+    <div class="color color1"></div>
+    <div class="color color2"></div>
+    <div class="color color3"></div>
+    <button class="buttons" id="clear-board">Limpar</button>
+  </section>
+
+  <div class="window-view">
+    <section id="pixel-board" class="pixel-board"></section>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(32 ,33 ,36);
+  margin: 0;
+  text-align: center;
+}
+
+header div {
+  display: inline-block;
+  font-size: medium;
+}
+
+.board-size {
+  border-radius: 5px;
+  width: 5rem;
+}
+
+.menu {
+  background-color: rgb(62, 63, 68);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(20, 20, 20);
+  color: white;
+  display: none;
+  height: 60px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 40vh;
+  margin-left: auto;
+  padding: 25px;
+  width: 300px;
+}
+
+.new-document-top {
+  animation: center-to-top 2s;
+  background-color: rgb(52, 54, 58);
+  box-shadow: 0px 2px 5px rgb(15, 16, 17);
+  color: white;
+  font-size: 1.2em;
+  height: 6vh;
+  margin: auto;
+  padding-top: 0.5rem;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+@keyframes center-to-top {
+  from {
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+}
+
+.input-document-title {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  display: inline-block;
+  font-size: 80%;
+  margin-bottom: 2%;
+  text-align: center;
+  width: 15vw;
+}
+
+.color-palette {
+  background-color: rgb(68, 70, 75);
+  color: rgb(168, 168, 168);
+  display: none;
+  height: 100vh;
+  font-size: small;
+  padding-top: 10vh;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 5vw;
+}
+
+.color {
+  box-shadow: 0px 2px 5px rgb(15, 16, 17);
+  border: black solid 1px;
+  display: inline-block;
+  height: 4vw;
+  width: 4vw;
+}
+
+.color0 {
+  background-color: black;
+}
+
+.selected {
+  border: red solid 2px;
+}
+
+.buttons {
+  box-shadow: 0px 2px 5px rgb(15, 16, 17);
+  margin-top: 0.5rem;
+  border: transparent;
+  color: white;
+  background-color: transparent;
+}
+
+.window-view {
+  display: none;
+  margin: auto;
+  height: 88vh;
+  margin-top: 10vh;
+  margin-left: 6.7vw;
+  overflow: auto;
+  width: 92vw;
+}
+
+.pixel-board {
+  border: 1px solid black;
+  display: none;
+  height: auto;
+  width: auto;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: -4px;
+  width: 40px;
+}
