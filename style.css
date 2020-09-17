@@ -1,0 +1,69 @@
+body {
+  font-family: montserrat, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.color-palete {
+  text-align: center;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.black {
+  background-color: black;
+}
+
+.selected {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pixel-board {
+  display: inline-block;
+}
+
+.pixel-board > div {
+  display: table-row;
+}
+
+.pixel-board > div > div {
+  display: table-cell;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.box {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
