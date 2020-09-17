@@ -1,0 +1,47 @@
+
+#color-palette{
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+.color{
+
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+
+}
+
+.selected {
+
+  border: 1px solid black;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+  margin-right: 7px;
+
+
+}
+#clear-board {  
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  height : 30px;
+  width : 63px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
+}
+
+.pixel {
+  background-color: white;
+  height : 40px;
+  width : 40px;
+  border : 1px solid black;
+  display : inline-block;
+
+}
