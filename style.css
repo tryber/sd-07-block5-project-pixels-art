@@ -1,0 +1,48 @@
+body {
+    margin: 5px;
+}
+#title {
+    background-color: brown;
+    margin: 0px;
+}
+.paleta {
+    background: blueviolet;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.color {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-top: 4px;
+    padding: 0px;
+    border: black 1px solid;
+}
+.color1 {
+    background-color: black;
+    color: khaki;
+}
+.color2 {
+    background: green;
+}
+.color3 {
+    background: blue;
+}
+.color4 {
+    background: yellow;
+}
+.pixel {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border: black 1px solid;
+    display: inline-block;
+}
+.linha {
+    line-height: 0px;  
+
+    
+}
