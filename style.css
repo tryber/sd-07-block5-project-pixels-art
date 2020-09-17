@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.color-paletter-div{
+display: inline-block;
+border-collapse: collapse;
+}
+.color-paletter-div div {
+border: 1px solid rgb(0,0,0);
+display: inline-block;
+}
+/* .contaner-pixel{
+    display: table;
+    border-collapse: collapse;
+} */
+
+.line{
+    margin-bottom: -4px;
+}
+.clear-board{
+display: inline-block;
+}
+.colorOne, .colorTwo, .colorThree, .colorFour{
+width: 40px;
+height: 40px;
+}
+.colorOne { 
+background-color: rgb(0,0,0);
+}
+.colorTwo{
+background-color: rgb(255,0,0);
+}
+.colorThree{
+background-color: rgb(0,0,255); 
+}
+.colorFour{
+background-color: rgb(0,141,0); 
+}
+
+.pixel{
+background-color: rgb(255,255,255);
+border: 1px solid rgb(0,0,0);
+width: 40px;
+height: 40px;
+display: inline-block;
+box-sizing: border-box;
+}
