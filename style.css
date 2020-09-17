@@ -1,0 +1,105 @@
+/* Dica de estilos de bootões https://www.w3schools.com/css/css3_buttons.asp */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+button {
+  background-color: #44a847;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bolder;
+  height: 40px;
+  outline: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.clear-board:hover {
+  background-color: #3e8e41
+}
+
+.clear-board:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.color {
+  border: black solid 1px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.color-palette {
+  box-sizing: border-box;
+  display: block;
+  height: 40px;
+  margin-left: 30px;
+  width: 180px;
+}
+
+.color-01 {
+  background-color: black;
+}
+
+.color-02 {
+  background-color: #4d17bd;
+}
+
+.color-03 {
+  background-color: #ff160a;
+}
+
+.color-04 {
+  background-color: #ffb508;
+}
+
+.entrada {
+  box-sizing: border-box;
+  display: block;
+}
+
+.pixel {
+  border: black solid 1px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}
+
+.pixelBackG {
+  background-color: rgb(255 , 255 , 255);
+}
+
+.pixel-board{
+  box-sizing: border-box;
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.pixelBackG {
+  background-color: white;
+}
+
+.set-board:hover {
+  background-color: #3e8e41
+}
+
+.set-board:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
