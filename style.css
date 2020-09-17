@@ -1,0 +1,43 @@
+html, body {
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+#pixel-board {
+  margin-top: 20px;
+}
+
+#clear-board {
+  margin-top: 20px;
+}
+
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background: black;
+}
+
+.color:nth-child(2) {
+  background: red;
+}
+
+.color:nth-child(3) {
+  background: blue;
+}
+
+.color:nth-child(4) {
+  background: yellow;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background: white;
+}
+
