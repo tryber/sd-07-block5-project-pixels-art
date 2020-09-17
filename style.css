@@ -1,0 +1,40 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.pixel {
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.pixel-board {
+  clear: both;
+  display: table;
+  margin-top: 5px;
+}
+
+.tr {
+  border: 1px solid black;
+  display: table-row;
+}
+
+.td {
+  border: 1px solid black;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+.display {
+  display: none;
+}
