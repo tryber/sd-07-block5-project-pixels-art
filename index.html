@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project -Color Palette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="randomPalette()">
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+  <section id="color-palette">
+    <div class="color black selected" id="black"></div>
+    <div class="color second" id="second"></div>
+    <div class="color third" id="third"></div>
+    <div class="color fourth" id="fourth"></div></br>
+  </section>
+  <section>
+    <div class="clear-board" id="clear-board">Limpar</div></br>
+
+    <label for="board-size">Pixels size (between 5 and 50): </label>
+
+    <input type="number" id="board-size" name="board-size" min="1">
+
+    <div class="generate-board" id="generate-board">VQV</div></br>
+
+  </section>
+  <section id="pixel-board">
+    
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
