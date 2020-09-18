@@ -1,0 +1,65 @@
+.head-container div {
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding: 40px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.ciano {
+  background-color: cyan;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  padding: 20px;
+  width: 40px;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  background-color: rgb(185, 185, 185);
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  margin: 5px;
+  padding: 10px;
+}
+
+input {
+  width: 55px;
+}
