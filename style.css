@@ -1,0 +1,78 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: 0 15px;
+  width: 40px;
+}
+
+.pixel-board {
+  border: 1px solid black;
+  font-size: 0;
+  margin: 0 auto;
+  max-width: 210px;
+  padding: 0;
+  width: 80%;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+  margin: 0;
+}
+
+h1 {
+  background-color: rgb(14, 144, 173);
+  color: white;
+  left: 0;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  top: 0;
+}
+
+section {
+  margin: 20px 0;
+}
+
+/* Removido para que o código seja aceito pelo Cypress
+.inline {
+  display: inline-block;
+  padding: 10px 15px;
+  vertical-align: middle;
+} */
+
+button {
+  background-color: rgb(89, 192, 223);
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 15px;
+  padding: 10px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(0, 98, 126);
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+.board-size {
+  border-color: gainsboro;
+  border-radius: 4px;
+  height: 20px;
+  width: 40px;
+}
