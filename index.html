@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta lang="en" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto 04 - Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <!-- CONTENT -->
+  <main>
+    <section id="palette-area" class="colors-palette-content">
+
+      <!-- COLOR PALETTE -->
+      <div id="color-palette" class="palette">
+        <div id="color1" class="color color1 selected"></div>
+        <div id="color2" class="color color2"></div>
+        <div id="color3" class="color color3"></div>
+        <div id="color4" class="color color4"></div>
+      </div>
+
+      <!-- PIXEL BOARD -->
+    </section>
+    <section class="board">
+
+      <!-- GERAR PIXEL BOARD -->
+      <div class="button-generate">
+        <p>Insira um número entre 5 e 50 referente ao tamanho do quadro em pixels</p></br>
+        
+        <input class="input-text" type="number" min="1" id="board-size">
+        <button class="button" id=generate-board>VQV</button>
+        <button class="button" id="clear-board">Limpar</button>
+      </div>
+
+      <!-- PIXEL BOARD -->
+      <div id="pixel-board" class="pixels-board"></div>
+    </section>
+
+  </main>
+  
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
