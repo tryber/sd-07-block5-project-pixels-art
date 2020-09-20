@@ -1,0 +1,30 @@
+.tools{
+    background-color: red;
+    text-align: center;
+}
+
+.color{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.color1{
+    background-color: black;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: yellow;
+}
+
+.color4{
+    background-color: green;
+}
+
