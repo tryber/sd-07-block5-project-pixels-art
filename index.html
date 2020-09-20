@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Art</title>
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+
+</head>
+<body>
+
+    <header>
+        <h1 id="title">"Paleta de Cores"</h1>
+    </header>
+
+    <section class="color-palette" id="color-palette">
+        <div class="color first-color selected" style="background-color: black;"></div>
+        <div class="color second-color"></div>
+        <div class="color third-color"></div>
+        <div class="color fourth-color"></div>
+    </section>
+
+    <div>
+        <label>Defina o tamanho do quadrado:</label>
+        <br>
+        <input id="board-size" class="board-size" type="number" min="1" max="50">
+        <button id="generate-board">VQV</button>
+    </div>
+
+    <button class="clear-board" id="clear-board">Limpar</button>
+
+    <section class="pixel-board" id="pixel-board">
+        <div class="tr">
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+        </div>
+        <div class="tr">
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+        </div>
+        <div class="tr">
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+        </div>
+        <div class="tr">
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+        </div>
+        <div class="tr">
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+            <div class="pixel td"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
