@@ -1,0 +1,50 @@
+.botao {
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.color {
+  border: solid 1px black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 8px;
+  width: 40px;
+}
+
+.gerar {
+  margin-left: 5px;
+}
+
+.input {
+  margin-left: 12px;
+}
+
+.paletasClasses {
+  margin-left: 25px;
+}
+
+.pale {
+  line-height: 0;
+  margin-left: 25px;
+}
+
+.pixel {
+  background-color: white;
+  border: solid 1px black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.selected {
+  border: solid 1px black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 8px;
+  width: 40px;
+}
+
+.titulo {
+  margin-left: 15px;
+}
