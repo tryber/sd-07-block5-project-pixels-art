@@ -28,3 +28,21 @@
     background-color: green;
 }
 
+#pixel-board{
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+
+.pixel{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.lineHor{
+    background-color: darkgoldenrod;
+}
