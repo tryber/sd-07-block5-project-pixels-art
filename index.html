@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paleta de Cores</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="title" class="title">Paleta de Cores</h1>
+
+    <section id="color-palette" class="color-palette">
+      <div class="color black selected"></div>
+      <div class="color red"></div>
+      <div class="color blue"></div>
+      <div class="color green"></div>
+    </section>
+
+    <section class="userElements">
+      <h2>Tamanho do Quadro</h2>
+      <input
+        type="number"
+        placeholder="Valor entre 5 e 50"
+        class="inputElements placeholder"
+        id="board-size"
+        min="1"
+        max="50"
+      />
+      <button type="button" class="inputElements" id="generate-board">
+        VQV
+      </button>
+    </section>
+
+    <section class="button">
+      <button type="button" id="clear-board" class="clear-board">Limpar</button>
+    </section>
+    <section id="pixel-board" class="pixel-board"></section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
