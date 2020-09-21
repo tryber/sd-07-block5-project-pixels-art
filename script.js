@@ -6,3 +6,5 @@ for(let i = 0; i < 4; i += 1){
         colorSelected[i].classList.add("selected")
     });
 }
+
+//testando1
