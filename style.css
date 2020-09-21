@@ -1,0 +1,41 @@
+.color {
+    border: 1px black solid;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#color1 {
+    background-color:rgb(0, 0, 0);
+}
+
+#color2 {
+    background-color:rgb(0, 0, 255);
+}
+
+#color3 {
+    background-color: green;
+}
+
+#color4 {
+    background-color: grey;
+}
+
+.pixel {
+    border: 1px black solid;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color:rgb(255, 255, 255);
+    padding: 0;
+}
+
+.linha {
+  padding: 0;
+}
+
+#clear-board {
+    padding: 5px;
+    margin: 3px;
+    margin-left: 50px;
+}
