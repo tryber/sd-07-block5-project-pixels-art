@@ -8,3 +8,13 @@ for(let i = 0; i < 4; i += 1){
 }
 
 //testando1
+
+for(let i = 0; i < devicePixelRatio.length; i += 1){
+    pixel[i].addEventListener("click", function(){
+        let selected = document.querySelector('.selector')
+        console.log(selected);
+
+        pixel[i].style.backgroundColor = selected.style.backgroundColor
+        console.log(window.getComputedStyle(selected).backgroundColor)
+    })
+}
