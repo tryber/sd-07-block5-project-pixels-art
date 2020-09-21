@@ -1,4 +1,5 @@
 let colorSelected = document.getElementsByClassName("color");
+let pixel = [];
 
 for(let i = 0; i < 4; i += 1){
     colorSelected[i].addEventListener("click", function(){
