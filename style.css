@@ -8,8 +8,8 @@
     border-style: solid;
     border-width: 1px;
     display: inline-block;
-    width: 100px;
     height: 100px;
+    width: 100px;
 }
 
 .color1{
@@ -38,9 +38,10 @@
     border-color: black;
     border-style: solid;
     border-width: 1px;
+    display: inline-block;
     height: 40px;
     width: 40px;
-    display: inline-block;
+    
 }
 
 .lineHor{
