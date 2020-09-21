@@ -8,12 +8,12 @@ for(let i = 0; i < 4; i += 1){
 }
 
 
-for(let i = 0; i < pixel.length; i += 1){
-    pixel[i].addEventListener("click", function(){
-        let selected = document.querySelector('.selected')
-        console.log(selected);
+//for(let i = 0; i < pixel.length; i += 1){
+//    pixel[i].addEventListener("click", function(){
+//        let selected = document.querySelector('.selected')
+//        console.log(selected);
 
-        pixel[i].style.backgroundColor = selected.style.backgroundColor
-        console.log(window.getComputedStyle(selected).backgroundColor)
-    })
-}
+//        pixel[i].style.backgroundColor = selected.style.backgroundColor
+//        console.log(window.getComputedStyle(selected).backgroundColor)
+//    })
+//}
