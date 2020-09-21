@@ -9,9 +9,9 @@ for(let i = 0; i < 4; i += 1){
 
 //testando1
 
-for(let i = 0; i < devicePixelRatio.length; i += 1){
+for(let i = 0; i < pixel.length; i += 1){
     pixel[i].addEventListener("click", function(){
-        let selected = document.querySelector('.selector')
+        let selected = document.querySelector('.selected')
         console.log(selected);
 
         pixel[i].style.backgroundColor = selected.style.backgroundColor
