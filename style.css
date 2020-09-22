@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+}
+.color{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.pixel-board {
+    margin-top: 15px;
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+}
+.pixel {
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    /* margin: -4px; */
+}
