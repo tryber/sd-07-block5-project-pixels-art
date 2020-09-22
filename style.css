@@ -1,0 +1,31 @@
+.color , .pixel {
+  border: 1px solid black;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+.color-palette > div > a {
+  display: inline-block;
+  margin: 5px;
+}
+
+.colorBlack {
+  background-color: black;
+}
+
+.colorRed {
+  background-color: red;
+}
+
+.colorBlue {
+  background-color: blue;
+}
+
+.colorGreen {
+  background-color: green;
+}
+
+.pixel {
+  background-color: white;
+}
