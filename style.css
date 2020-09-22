@@ -1,0 +1,48 @@
+.color {
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  list-style: none;
+  margin: 10px auto;
+  width: 40px;
+}
+
+.pixel {
+  border: 1px solid black;
+  border-collapse: separate;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.black {
+  background: black;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.orange {
+  background: orangered;
+}
+
+.purple {
+  background: purple;
+}
+
+.white {
+  background: white;
+}
