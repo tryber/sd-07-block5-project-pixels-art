@@ -1,0 +1,43 @@
+body {
+  margin-left: 50px;
+}
+
+.color {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#color-a {
+  background-color: black;
+}
+
+#color-b {
+  background-color: yellow;  
+}
+
+#color-c {
+  background-color: green;  
+}
+
+#color-d {
+  background-color: blue;
+}
+
+h3 {
+  display: inline;
+}
+
+#clear-board{
+  margin:20px 10px;
+  display: inline;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px; 
+  display: inline-block;
+  border: 1px solid black;
+}
