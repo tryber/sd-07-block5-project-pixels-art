@@ -41,9 +41,6 @@
     display: inline-block;
     height: 40px;
     width: 40px;
+    margin: -4px;
     
-}
-
-.lineHor{
-    background-color: darkgoldenrod;
 }
