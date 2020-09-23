@@ -18,3 +18,4 @@ for(let i = 0; i < 4; i += 1){
 //        console.log(window.getComputedStyle(selected).backgroundColor)
 //    })
 //}
+//
