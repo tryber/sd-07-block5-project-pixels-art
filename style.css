@@ -1,0 +1,44 @@
+.color1 {
+  background-color: black;
+}
+
+.color2 {
+  background-color: blue;
+}
+
+.color3 {
+  background-color: green;
+}
+
+.color4 {
+  background-color: red;
+}
+
+.color {
+  border: 1px black solid;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.pixel {
+  background-color: white;
+  border: solid 1px black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  line-height: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+.board-size {
+  width: 35px;
+}
