@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+.color {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 50px;
+    display: inline-block;
+}
+.color-one {
+    background-color: black;
+}
+.color-two {
+    background-color: red;
+}
+.color-three {
+    background-color: blue;
+}
+.color-four {
+    background-color: green;
+}
+.paletteColor, h1 {
+    text-align: center;
+}
+input {
+    font-size: xx-large;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+.button {
+    font-family: monospace;
+    font-size: larger;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.pixelBoard {
+    
+    border: 2px solid black;
+    
+}
+.pixel-line {
+    text-align: center;
+}
+.pixel {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 2px;
+    display: inline-block;
+}
