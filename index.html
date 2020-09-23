@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Projeto Paleta de Cores</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    </head>
+    <body>
+        <h1 id="title">Paleta de Cores</h1>
+        <table>
+            <tr id="color-palette">
+                <th><button id="preto" class="color"></button></th>
+                <th><button id="cor1" class="color"></button></th>
+                <th><button id="cor2" class="color"></button></th>
+                <th><button id="cor3" class="color"></button></th>
+            </tr>
+        </table>
+        <br>
+        <div id="botoes">
+            <input id="board-size" class="execucao" placeholder="Tamanho" type="number" min="1"/>
+            <button id="generate-board" class="execucao">VQV</button>
+            <button id="clear-board" class="execucao">Limpar</button>
+        </div>
+        <br>
+        <div id="pixel-board"></div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html> 
