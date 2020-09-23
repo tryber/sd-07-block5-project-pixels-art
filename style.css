@@ -1,3 +1,21 @@
+body{
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+}
+
+h1{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
 .tools{
     background-color: red;
     text-align: center;
@@ -12,6 +30,7 @@
     width: 100px;
 }
 
+.selected
 .color1{
     background-color: black;
 }
