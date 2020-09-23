@@ -1,8 +1,8 @@
 let numberLines = 5;
 let pixelBoard = document.getElementById("pixel-board");
 
-let pixel = []
-let linha = []
+let pixel = [];
+let linha = [];
 
 let k = 0
 for (let i = 0; i < numberLines; i +=1){
@@ -17,28 +17,17 @@ for (let i = 0; i < numberLines; i +=1){
       k = k + 1;
     }
 }
-console.log(pixel);
 
 
-
-let colorSelected = document.getElementsByClassName("color");
-//let pixel = [];
-
-for(let i = 0; i < 4; i += 1){
-    colorSelected[i].addEventListener("click", function(){
-        document.querySelector(".selected").classList.remove("selected");
-        colorSelected[i].classList.add("selected")
-    });
+let color = document.querySelectorAll(".color");
+for (let i = 0; i < color.length; i += 1){
+    color[i].addEventListener("click", function(event) {
+        let selected = document.querySelector(".selected")
+        selected.classList.remove('selected');
+        event.target.className += "selected"
+    })
 }
 
 
-//for(let i = 0; i < pixel.length; i += 1){
-//    pixel[i].addEventListener("click", function(){
-//        let selected = document.querySelector(".selected")
-//        console.log(selected);
 
-//        pixel[i].style.backgroundColor = selected.style.backgroundColor
-//        console.log(window.getComputedStyle(selected).backgroundColor)
-//    })
-//}
-//
+
