@@ -31,6 +31,16 @@
 #pixel-board{
     background-color: cornflowerblue;
     display: inline-block;
+    height: 210px;
+    width: 210px;
+}
+
+.linha {
+    margin-top: -4px;
+}
+
+.linha:first-child{
+    margin-top: 0;
 }
 
 .pixel{
@@ -41,6 +51,6 @@
     display: inline-block;
     height: 40px;
     width: 40px;
-    margin: -4px;
+    display: inline-block;
     
 }
