@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin: 10px;
+  size: 10px;
+  width: 40px;
+}
+
+.color-palette {
+  text-align: center;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  line-height: 0;
+  text-align: center;
+}
