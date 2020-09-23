@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(200, 249, 237);
+}
+
+.botoes {
+  border-radius: 5px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 200px;
+}
+
+.botao {
+  height: 40px;
+  margin: auto 10px;
+  width: 80px;
+}
+
+.titulo {
+  color: rgb(8, 20, 190);
+  font-size: 1.8em;
+}
+
+.color-palette {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 60px;
+  width: 70px;
+}
+
+.tabela {
+  display: table;
+}
+
+.linha {
+  display: table-row;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box; /* Ler sobre */
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+}
+
+.quadro {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tamanho-quadro {
+  height: 22px;
+  margin: auto 10px;
+}
