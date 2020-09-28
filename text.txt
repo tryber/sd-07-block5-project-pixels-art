@@ -1,0 +1,4 @@
+Iniciando processo
+up to date in 1.351s
+found 0 vulnerabilities
+
