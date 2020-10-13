@@ -1,0 +1,43 @@
+body {
+}
+
+.color-palette {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.color {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.color:nth-child(1) {
+  background-color: black;
+}
+
+.color:nth-child(2) {
+  background-color: red;
+}
+
+.color:nth-child(3) {
+  background-color: blue;
+}
+
+.color:nth-child(4) {
+  background-color: green;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.linha {
+  display: table;
+}
+
+.celula {
+  display: table-cell;
+}
